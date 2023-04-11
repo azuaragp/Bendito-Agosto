@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .main-container {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -40px;
+    left: -10px;
+  }
+  
+  .title {
+    color: whitesmoke;
+    padding-left: 2em;
+    padding-top: 2em;
+    font-weight: 400;
+    background-color: transparent;
+  }
+  
+  .subtitle {
+    color: whitesmoke;
+    padding-left: 2.6em;
+    padding-top: 0.3em;
+    padding-right: 0em;
+    font-weight: 290;
+    background-color: transparent;
+  }
+  
+  p {
+    color: whitesmoke;
+    padding-left: 4em;
+    padding-top: 2em;
+    font-weight: 290;
+    font-size: large;
+    margin-top: 0.8em;
+    background-color: transparent;
+    letter-spacing: 0.1px;
+    position: relative;
+    left: -10px;
+  }
+  
+  .text {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 56%; 
+    padding: 35px 0px 20px 15px;
+    box-sizing: border-box;
+  }
+  
+  .date {
+    padding-top: 0em;
+    margin-top: 0em;
+    padding-right: 0em;
+  }
+  
+  .info {
+    display: block;
+    position: relative;
+    left: 12px;
+    top: 280px;
+  }
+  
+  br {
+    line-height: 0.5;
+  }
+  
+  .video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    position: relative;
+    top: 185px;
+    right: 160px;
+    padding-bottom: 56.25%; /* relación de aspecto 16:9 */
+  }
+  
+  .video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
